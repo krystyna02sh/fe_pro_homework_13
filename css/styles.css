@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #005c80;
+}
+
+.container {
+  width: 100%;
+  max-width: calc(1110px + 2rem);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: relative;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.table-container {
+  border-collapse: collapse;
+}
+
+.table-cell {
+  border: 1px solid #8acdd7;
+  padding: 10px;
+  text-align: center;
+  background-color: #f9f9e0;
+}
+
+.table-header {
+  font-weight: bold;
+  background-color: #ff90bc;
+}
